@@ -1,3 +1,5 @@
+package Clases;
+
 public abstract class Mob {
     protected int salud;
 

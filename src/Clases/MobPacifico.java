@@ -1,3 +1,7 @@
+package Clases;
+
+import Interfaces.Daño;
+
 public abstract class MobPacifico extends Mob implements Daño {
     public MobPacifico(int salud) {
         super(salud);

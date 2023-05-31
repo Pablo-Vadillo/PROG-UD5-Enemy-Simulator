@@ -1,3 +1,5 @@
+package Clases;
+
 public class Enderman extends MobHostil {
     public Enderman(int salud, int fuerza) {
         super(salud, fuerza);
@@ -5,6 +7,6 @@ public class Enderman extends MobHostil {
 
     @Override
     public void moverse() {
-        System.out.println("El Enderman se teletransporta detrás.");
+        System.out.println("El Clases.Enderman se teletransporta detrás.");
     }
 }

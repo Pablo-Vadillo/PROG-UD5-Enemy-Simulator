@@ -1,3 +1,10 @@
+package Clases;
+
+import Clases.Enderman;
+import Clases.MobHostil;
+import Clases.Personaje;
+import Clases.Zombie;
+
 import java.util.Scanner;
 
 public class Main {

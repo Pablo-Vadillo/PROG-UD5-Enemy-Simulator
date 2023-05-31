@@ -1,3 +1,7 @@
+package Clases;
+
+import Interfaces.Combate;
+
 public abstract class MobHostil extends Mob implements Combate {
     protected int fuerza;
 

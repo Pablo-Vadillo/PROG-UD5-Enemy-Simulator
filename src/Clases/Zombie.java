@@ -1,3 +1,7 @@
+package Clases;
+
+import Clases.MobHostil;
+
 public class Zombie extends MobHostil {
     public Zombie(int salud, int fuerza) {
         super(salud, fuerza);
@@ -5,6 +9,6 @@ public class Zombie extends MobHostil {
 
     @Override
     public void moverse() {
-        System.out.println("El Zombie se mueve hacia el personaje.");
+        System.out.println("El Clases.Zombie se mueve hacia el personaje.");
     }
 }

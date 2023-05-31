@@ -1,3 +1,7 @@
+package Clases;
+
+import Interfaces.Combate;
+
 public class Personaje implements Combate {
     private int salud;
     private int defensa;
